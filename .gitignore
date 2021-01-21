@@ -1,2 +1,14 @@
 .idea/
+certs/
+mariadb-init/
+mutagen/
+tests/
 mutagen.yml.lock
+.databases
+.dockerignore
+.env
+docker-compose.yml
+docker.mk
+LICENSE.mariadbMakefile
+README.md
+traefik.yml
