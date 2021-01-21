@@ -4,12 +4,13 @@
 .env
 certs/
 mariadb-init/
-mutagen/
-tests/
+mutagen
+tests
 mutagen.yml.lock
 docker-compose.yml
 docker.mk
-LICENSE.mariadbMakefile
+LICENSE.md
+Makefile
 README.md
 traefik.yml
 web/sites/default/files/
