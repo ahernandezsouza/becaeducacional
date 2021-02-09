@@ -796,9 +796,9 @@ $settings['migrate_node_migrate_type_classic'] = FALSE;
    include $app_root . '/' . $site_path . '/settings.local.php';
  }
 $databases['default']['default'] = array (
-  'database' => 'drupal_becaeducacional',
-  'username' => 'drupal_becaeduca',
-  'password' => 'drupal_becaeduca',
+  'database' => 'drupal',
+  'username' => 'drupal',
+  'password' => 'drupal',
   'prefix' => '',
   'host' => 'mariadb',
   'port' => '3306',
