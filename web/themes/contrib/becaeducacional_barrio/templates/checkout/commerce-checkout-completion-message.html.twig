@@ -1,0 +1,24 @@
+{#
+/**
+ * @file
+ * Default theme implementation for the completion message.
+ *
+ * Available variables:
+ * - order_entity: The order entity.
+ * - message: The completion message.
+ * - payment_instructions: The payment instructions, if provided.
+ *
+ * @ingroup themeable
+ */
+#}
+<div class="checkout-complete jumbotron jumbotron lead">
+  <div class="display-4">Listo</div>
+  {{- message -}}
+</div>
+  {% if payment_instructions %}
+    <div class="checkout-complete__payment-instructions">
+      <h2>{{ 'Payment instructions'|t }}</h2>
+      {{ payment_instructions }}
+    </div>
+  {% endif %}
+</div>

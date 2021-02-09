@@ -1,0 +1,32 @@
+/**
+ * @file
+ * Subtheme specific CSS.
+ */
+ i.fa.fa-bars {
+    color: #fff;
+}
+
+.fieldset-wrapper {
+    border: 1px #445CA6 solid;
+    padding: 20px;
+    /* border-radius: 20px; */
+    /* background-color: lightgray; */
+}
+
+div#views-bootstrap-faq-page-1 {
+    width: 100%;
+}
+
+div#block-becaeducacional-barrio-content {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.js-form-item-payment-information-add-payment-method-billing-information-select-address.form-item-payment-information-add-payment-method-billing-information-select-address.form-group {
+    display: none;
+}
+
+ol.checkout-progress.clearfix {
+    font-size: 25px;
+    margin-top: 20px;
+}

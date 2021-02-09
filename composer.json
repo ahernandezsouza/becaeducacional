@@ -16,14 +16,26 @@
     ],
     "require": {
         "composer/installers": "^1.2",
+        "cweagans/composer-patches": "^1.7",
         "drupal/admin_toolbar": "^2.4",
         "drupal/backup_migrate": "^4.1",
+        "drupal/bootstrap_barrio": "^4.33",
+        "drupal/bootstrap_library": "^1.14",
         "drupal/commerce": "^2.23",
         "drupal/commerce_paypal": "^1.0@RC",
+        "drupal/commerce_webform_order": "1.x-dev@dev",
         "drupal/console": "~1.0",
         "drupal/core-composer-scaffold": "^8.8",
         "drupal/core-project-message": "^8.8",
-        "drupal/core-recommended": "^8.8"
+        "drupal/core-recommended": "^8.8",
+        "drupal/email_registration": "^1.1",
+        "drupal/pathauto": "^1.8",
+        "drupal/redirect_after_login": "^2.7",
+        "drupal/swiftmailer": "^2.0",
+        "drupal/twig_tweak": "^2.9",
+        "drupal/typed_data": "^1.0@alpha",
+        "drupal/views_bootstrap": "^4.3",
+        "drupal/webform_views": "^5.0@alpha"
     },
     "conflict": {
         "drupal/drupal": "*"
