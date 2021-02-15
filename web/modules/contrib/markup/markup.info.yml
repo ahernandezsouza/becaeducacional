@@ -1,0 +1,12 @@
+name: Markup
+description: Defines a field type for markup.
+type: module
+package: Field types
+core_version_requirement: ^8 || ^9
+dependencies:
+  - drupal:field
+
+# Information added by Drupal.org packaging script on 2020-06-22
+version: '8.x-1.0-beta3'
+project: 'markup'
+datestamp: 1592814518

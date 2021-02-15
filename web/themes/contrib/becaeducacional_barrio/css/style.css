@@ -30,3 +30,16 @@ ol.checkout-progress.clearfix {
     font-size: 25px;
     margin-top: 20px;
 }
+
+div#edit-payment-information-add-payment-method-billing-information-field-rfc-wrapper{
+    display: none;
+}
+
+div#edit-payment-information-add-payment-method-billing-information-field-direccion-fiscal-wrapper{
+    display: none;
+
+}
+
+form#profile-customer-address-book-edit-form fieldset#datos-fiscales{
+    display: none;
+}
