@@ -45,9 +45,6 @@
         </tr>
         <tr>
           <td>
-            <style>
-              
-            </style>
             {#
             {% block order_items %}
             <table style="padding-top: 15px; padding-bottom:15px; width: 100%">
@@ -68,7 +65,7 @@
             </table>
             {% endblock %}
               #}
-              {{ drupal_view('commerce_order_item_table', 'mail',  order_entity.getOrderNumber|integer) }}
+              {{ drupal_view('commerce_order_item_table', 'mail',  order_entity.getOrderNumber ) }}
           </td>
         </tr>
         <tr>
