@@ -23,7 +23,7 @@ div#block-becaeducacional-barrio-content {
 }
 
 .js-form-item-payment-information-add-payment-method-billing-information-select-address.form-item-payment-information-add-payment-method-billing-information-select-address.form-group {
-    display: none;
+    /*display: none;*/
 }
 
 ol.checkout-progress.clearfix {

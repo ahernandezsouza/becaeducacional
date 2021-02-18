@@ -45,6 +45,10 @@
         </tr>
         <tr>
           <td>
+            <style>
+              
+            </style>
+            {#
             {% block order_items %}
             <table style="padding-top: 15px; padding-bottom:15px; width: 100%">
               <tbody style="text-align: left;">
@@ -59,9 +63,12 @@
                 </td>
               </tr>
               {% endfor %}
+              {{ dump(order_entity.getOrderNumber|integer)}}
               </tbody>
             </table>
             {% endblock %}
+              #}
+              {{ drupal_view('commerce_order_item_table', 'mail',  order_entity.getOrderNumber|integer) }}
           </td>
         </tr>
         <tr>
