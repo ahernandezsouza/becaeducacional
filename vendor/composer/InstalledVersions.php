@@ -29,7 +29,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '5196981235de08fa26756000d031387adafc2fe6',
+    'reference' => '5b0287114138d61686d9fd0f5a9dec29644a662f',
     'name' => 'drupal/recommended-project',
   ),
   'versions' => 
@@ -451,6 +451,15 @@ private static $installed = array (
       ),
       'reference' => 'ee0d2d7bd7e064add998cab88265401bc0f18bb3',
     ),
+    'drupal/conditional_fields' => 
+    array (
+      'pretty_version' => '1.0.0-alpha10',
+      'version' => '1.0.0.0-alpha10',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0-alpha10',
+    ),
     'drupal/config' => 
     array (
       'replaced' => 
@@ -763,15 +772,6 @@ private static $installed = array (
         0 => '8.9.12',
       ),
     ),
-    'drupal/draggableviews' => 
-    array (
-      'pretty_version' => '2.0.0',
-      'version' => '2.0.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '2.0.0',
-    ),
     'drupal/dynamic_page_cache' => 
     array (
       'replaced' => 
@@ -827,6 +827,15 @@ private static $installed = array (
         0 => '8.9.12',
       ),
     ),
+    'drupal/field_group' => 
+    array (
+      'pretty_version' => '3.1.0',
+      'version' => '3.1.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.1',
+    ),
     'drupal/field_layout' => 
     array (
       'replaced' => 
@@ -854,15 +863,6 @@ private static $installed = array (
       array (
         0 => '8.9.12',
       ),
-    ),
-    'drupal/form_mode_manager' => 
-    array (
-      'pretty_version' => '1.3.0',
-      'version' => '1.3.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '8.x-1.3',
     ),
     'drupal/forum' => 
     array (
@@ -964,15 +964,23 @@ private static $installed = array (
         0 => '8.9.12',
       ),
     ),
-    'drupal/logintoboggan' => 
+    'drupal/mailsystem' => 
     array (
-      'pretty_version' => 'dev-1.x',
-      'version' => 'dev-1.x',
+      'pretty_version' => '4.3.0',
+      'version' => '4.3.0.0',
       'aliases' => 
       array (
-        0 => '1.x-dev',
       ),
-      'reference' => '82674c4348fa0722ac5ba09d609815c90a303a2f',
+      'reference' => '8.x-4.3',
+    ),
+    'drupal/markup' => 
+    array (
+      'pretty_version' => '1.0.0-beta3',
+      'version' => '1.0.0.0-beta3',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0-beta3',
     ),
     'drupal/media' => 
     array (
@@ -1111,7 +1119,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '5196981235de08fa26756000d031387adafc2fe6',
+      'reference' => '5b0287114138d61686d9fd0f5a9dec29644a662f',
     ),
     'drupal/redirect_after_login' => 
     array (
@@ -1121,15 +1129,6 @@ private static $installed = array (
       array (
       ),
       'reference' => '8.x-2.7',
-    ),
-    'drupal/registration_role' => 
-    array (
-      'pretty_version' => '1.1.0',
-      'version' => '1.1.0.0',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '8.x-1.1',
     ),
     'drupal/responsive_image' => 
     array (
@@ -1144,15 +1143,6 @@ private static $installed = array (
       array (
         0 => '8.9.12',
       ),
-    ),
-    'drupal/rules' => 
-    array (
-      'pretty_version' => '3.0.0-alpha6',
-      'version' => '3.0.0.0-alpha6',
-      'aliases' => 
-      array (
-      ),
-      'reference' => '8.x-3.0-alpha6',
     ),
     'drupal/search' => 
     array (
@@ -1226,6 +1216,15 @@ private static $installed = array (
         0 => '8.9.12',
       ),
     ),
+    'drupal/swiftmailer' => 
+    array (
+      'pretty_version' => '2.0.0',
+      'version' => '2.0.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.0',
+    ),
     'drupal/syslog' => 
     array (
       'replaced' => 
@@ -1291,15 +1290,32 @@ private static $installed = array (
         0 => '8.9.12',
       ),
     ),
-    'drupal/typed_data' => 
+    'drupal/twig_tools' => 
     array (
-      'pretty_version' => 'dev-1.x',
-      'version' => 'dev-1.x',
+      'pretty_version' => '1.3.0',
+      'version' => '1.3.0.0',
       'aliases' => 
       array (
-        0 => '1.x-dev',
       ),
-      'reference' => '27555f47b522730d04f3b33c9a46c0acbcb3146e',
+      'reference' => '8.x-1.3',
+    ),
+    'drupal/twig_tweak' => 
+    array (
+      'pretty_version' => '2.9.0',
+      'version' => '2.9.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-2.9',
+    ),
+    'drupal/typed_data' => 
+    array (
+      'pretty_version' => '1.0.0-alpha5',
+      'version' => '1.0.0.0-alpha5',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-1.0-alpha5',
     ),
     'drupal/update' => 
     array (
@@ -1330,6 +1346,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '8.x-4.3',
+    ),
+    'drupal/views_bulk_operations' => 
+    array (
+      'pretty_version' => '3.10.0',
+      'version' => '3.10.0.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '8.x-3.10',
     ),
     'drupal/views_ui' => 
     array (
@@ -1423,6 +1448,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '239400de7a173fe9901b9ac7c06497751f00727a',
+    ),
+    'html2text/html2text' => 
+    array (
+      'pretty_version' => '4.3.1',
+      'version' => '4.3.1.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '61ad68e934066a6f8df29a3d23a6460536d0855c',
     ),
     'laminas/laminas-diactoros' => 
     array (
@@ -1645,6 +1679,15 @@ private static $installed = array (
       array (
       ),
       'reference' => 'a9502dab59405e275a9f264536c4e1cb61fc3518',
+    ),
+    'swiftmailer/swiftmailer' => 
+    array (
+      'pretty_version' => 'v6.2.5',
+      'version' => '6.2.5.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => '698a6a9f54d7eb321274de3ad19863802c879fb7',
     ),
     'symfony-cmf/routing' => 
     array (
@@ -1915,6 +1958,15 @@ private static $installed = array (
       array (
       ),
       'reference' => '7233ac2bfdde24d672f5305f2b3f6b5d741ef8eb',
+    ),
+    'tijsverkoyen/css-to-inline-styles' => 
+    array (
+      'pretty_version' => '2.2.3',
+      'version' => '2.2.3.0',
+      'aliases' => 
+      array (
+      ),
+      'reference' => 'b43b05cf43c1b6d849478965062b6ef73e223bb5',
     ),
     'twbs/bootstrap' => 
     array (

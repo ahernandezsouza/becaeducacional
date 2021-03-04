@@ -39,6 +39,7 @@
         "drupal/twig_tweak": "^2.9",
         "drupal/typed_data": "^1.0@alpha",
         "drupal/views_bootstrap": "^4.3",
+        "drupal/views_bulk_operations": "^3.10",
         "drupal/webform_views": "^5.0@alpha"
     },
     "conflict": {
